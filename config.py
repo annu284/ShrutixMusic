@@ -7,22 +7,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("33125525"))
+API_HASH = getenv("eba06c9f32dc283510c4366403d7948f")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8867970406:AAGc92Xy0Nox3muPlmFOXjkx5uSJg9smoCs")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_URL=mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/
+?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("-1003872333955"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7574330905))
+OWNER_ID = int(getenv("OWNER_ID", 6584776359))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,13 +44,13 @@ GIT_TOKEN = getenv(
 ## ) ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT ✅️
 
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "YOUR_API_KEY")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsq1ICmuqF20OIiKAcE2ZI")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ShrutiSupportChat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AnnuBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/rixhcards")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -84,10 +85,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/5c8d3994b93174a57d7f3-608459ffaf02cf2a9b.jpg"
+    "START_IMG_URL", "https://pic-link-bot.lovable.app/i/telegram-1779535471157-054d9dd8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/c8b09659c837cd9142601-f594bfd29076e79944.jpg"
+    "PING_IMG_URL", "https://pic-link-bot.lovable.app/i/telegram-1779534971065-7eb6dc29.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
