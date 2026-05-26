@@ -1,5 +1,5 @@
 {
-  "name": "Cheerypromusic",
+  "name": "Shrutixmusic",
   "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
   "logo": "https://telegra.ph/file/5a5039d21a5cedb5bd6bc-e25218a8dd3941e289.jpg",
   "keywords": [
@@ -12,33 +12,32 @@
     "pyrogram"
   ],
   "env": {
-    "API_ID": {33125525
+    "API_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": true
     },
-    "API_HASH": {eba06c9f32dc283510c4366403d7948f
+    "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": true
     },
-    "BOT_TOKEN": {8867970406:AAGc92Xy0Nox3muPlmFOXjkx5uSJg9smoCs
+    "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
       "value": "",
       "required": true
     },
-    "MONGO_DB_URI": {mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/
-?retryWrites=true&w=majority&appName=Cluster0
+    "MONGO_DB_URI": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "value": "",
       "required": true
     },
-    "OWNER_ID": {6584776359
+    "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
       "value": "",
       "required": true
     },
-    "STRING_SESSION": {BQH5dJUABFw0cepkDZ3zv0eXl1YhYK1Ra-LB02zIdraYkAvoqoqt_8MxVTaas-kCfctvQveBPJR83Tes-UndpgOua4TLIoYfAyI0KEGzClRz3ikY1DVFRxi1IViWPeJ-HR7AfjUKs4qe0IiblWTHRMexZstn3nIKMzLod-H6fS4QvTjgfLAKmycV2EizPgl73NDswtQu14BNYSG0gg4n43qu8YtqL0ATKvBNlq382vx5DX4OT6MO5TuV-N16ey2hCgqvGO4Ab-JQPuZ0IcS-gzFyhO9SZfRf2CVo-P4w1p4QId_bA4Z69kNDmd8iGDZQO8pj0IxN8K_VUwExtH923pjfUjOOTAAAAAHY6wLdAA
+    "STRING_SESSION": {
       "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
       "value": "",
       "required": true
@@ -53,7 +52,7 @@
       "value": "",
       "required": false
     },
-    "LOGGER_ID": {-1003872333955
+    "LOGGER_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!",
       "value": "",
       "required": true
@@ -63,7 +62,7 @@
       "value": "https://api.shrutibots.site",
       "required": true
     },
-    "SHRUTI_API_KEY": {ShrutiBotsq1ICmuqF20OIiKAcE2ZI
+    "SHRUTI_API_KEY": {
       "description": "Get API key from Telegram bot @SHRUTIAPIBOT",
       "value": "",
       "required": true
